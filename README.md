@@ -3,7 +3,6 @@ webcamDetector
 
 Use a Webcam with OpenCV and TensorFlow to detect objects
 
-Records output video to the "output" directory
 
 To use:
 
@@ -38,3 +37,8 @@ $ git clone https://github.com/alkari/webcamDetector.git
 $ cd webcamDetector
 $ python3 webcamDetector.py
 ```
+
+4. Press 'Q' on your keyboard to exit.
+
+# Recorded detection videos are stored in the "output" directory.
+
