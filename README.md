@@ -17,7 +17,7 @@ sys.version
 ```
 Outputs: '3.6.2 (default, Jul 17 2017, 16:44:32) \n[GCC 4.2.1 Compatible Apple LLVM 7.0.2 (clang-700.1.81)]'
     
- ```python
+```python
 import tensorflow as tf
 tf.__version__
 ```
@@ -37,6 +37,8 @@ $ git clone https://github.com/alkari/webcamDetector.git
 $ cd webcamDetector
 $ python3 webcamDetector.py
 ```
+
+The script will download and unpack pretrained model used for detection. It might take a little while depending on your network speed.
 
 4. Press 'Q' on your keyboard to exit.
 
