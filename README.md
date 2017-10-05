@@ -33,6 +33,8 @@ Outputs: '3.3.0'
 
 3. download and run:
 
-    git clone https://github.com/alkari/webcamDetector.git
-    cd webcamDetector
-    python3 webcamDetector.py
+```
+$ git clone https://github.com/alkari/webcamDetector.git
+$ cd webcamDetector
+$ python3 webcamDetector.py
+```
