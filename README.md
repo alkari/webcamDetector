@@ -13,7 +13,7 @@ $ brew install --upgrade python3
 $ brew link python3
 $ python -V
 ```
-Outputs: '3.6.2'
+Outputs: 'Python 3.6.2'
 
 
 2. Install TensorFlow from https://www.tensorflow.org/install/
@@ -41,8 +41,8 @@ $ brew install opencv3 --with-python3 --with-ffmpeg -v
 Test in python:
 
 ```python
-import cv2
-cv2.__version__
+>>> import cv2
+>>> cv2.__version__
 ```
 Outputs: '3.3.0'
 
