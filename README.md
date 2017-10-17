@@ -28,6 +28,11 @@ Outputs: '1.3.0'
 
 3. Install TensorFlow Object Detection: https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 
+Remember to run this from tensorflow/models/object_detection: 
+```
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+```
+
 4. Intall OpenCV
 
 The following should work on MacOS (from https://www.pyimagesearch.com/2016/12/19/install-opencv-3-on-macos-with-homebrew-the-easy-way/):

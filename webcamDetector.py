@@ -87,7 +87,8 @@ filename = 1
 while os.path.isfile("output/video_"+str(filename)+".avi"):
     filename += 1
 
-cap = cv2.VideoCapture(0)
+device = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+cap = cv2.VideoCapture(device)
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter("output/video_"+str(filename)+'.avi', fourcc, 20.0, (1280, 720))
